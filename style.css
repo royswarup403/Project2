@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    background-color: black;
+}
+
+.top_section h1{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.table_section{
+    max-width: 60rem;
+    display: flex;
+    justify-content:center;
+
+}
+
+
+.first_table th{
+    color: red;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.first_table td{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.second_table th{
+    color: red;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.second_table td{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.footer_section{
+   color: white; 
+   text-align: right;
+   padding-right: 8rem;
+   font-size: 1.5rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width:668px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:570px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media(max-width:487px){
+    html{
+        font-size: 35%;
+    }
+}
+
+@media(max-width:423px){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media(max-width:378px){
+    html{
+        font-size: 25%;
+    }
+}
